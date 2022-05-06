@@ -3,6 +3,8 @@ import { CMSHobbies } from '../../cms-integration/markdown/hobbies';
 import { CMSLink } from '../../cms-integration/markdown/links';
 import { CMSPersonalInformation } from '../../cms-integration/markdown/personal';
 import { CMSProfessionalExperience } from '../../cms-integration/markdown/professional';
+import { CMSProjectDetail } from '../../cms-integration/markdown/projects';
+
 import { CMSSkillCategory } from '../../cms-integration/markdown/skills';
 
 export const educationalExperiences: CMSEducationalExperience[] = [
@@ -42,6 +44,17 @@ export const professionalExperiences: CMSProfessionalExperience[] = [
       organization: 'The Zebra',
       title: 'My Title',
       startDate: '2018-02-15',
+    },
+    html: '<div>Test</div>',
+    slug: 'test',
+  },
+];
+
+export const projectDetails: CMSProjectDetail[] = [
+  {
+    attributes: {
+      organization: 'The Zebra',
+      title: 'My Title',
     },
     html: '<div>Test</div>',
     slug: 'test',

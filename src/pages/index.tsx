@@ -11,6 +11,7 @@ export const getStaticProps = async () => {
     links,
     personalInformation,
     professional,
+    projects,
     skills,
   } = await getCMSIntegration('markdown');
 
@@ -21,6 +22,7 @@ export const getStaticProps = async () => {
       links,
       personalInformation,
       professional,
+      projects,
       skills,
     },
   };

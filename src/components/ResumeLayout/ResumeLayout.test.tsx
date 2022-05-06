@@ -5,6 +5,7 @@ import {
   links,
   personalInformation,
   professionalExperiences,
+  projectDetails,
   skills,
 } from '../../test/fixtures/markdown';
 import { render } from '../../test/testUtils';
@@ -25,6 +26,7 @@ describe('<ResumeLayout />', () => {
         links={links}
         personalInformation={personalInformation}
         professional={professionalExperiences}
+        projects={projectDetails}
         skills={skills}
       />,
     );
