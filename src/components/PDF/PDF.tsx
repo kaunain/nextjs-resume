@@ -69,6 +69,8 @@ const styles = StyleSheet.create({
     fontSize: fontSizes.xxs,
     justifyContent: 'flex-start',
     lineHeight: 1.3,
+    marginBottom: spacers[1],
+    marginTop: spacers[1],
   },
   sidebar: {
     alignSelf: 'stretch',
@@ -189,14 +191,15 @@ const PDF: React.FC<ResumePageProps> = (props) => {
     personalInformation,
     privateInformation,
     professional,
+    projects,
     skills,
   } = props;
   const fullName = getFullName(personalInformation);
   const year = new Date().getFullYear();
 
   return (
-    <Document author={fullName} title={`Résume for ${fullName}, ${year}`}>
-      <Page size="LETTER" style={styles.page}>
+    <Document author={fullName} title={`Resume for ${fullName}, ${year}`}>
+      <Page size="A4" style={styles.page}>
         <View style={styles.sidebar}>
           <View style={styles.header}>
             <Text style={styles.headerTitle}>{fullName}</Text>
@@ -298,6 +301,28 @@ const PDF: React.FC<ResumePageProps> = (props) => {
                   </Text>
                 </View>
                 <Html {...htmlProps}>{professionalExperience.html}</Html>
+              </View>
+            ))}
+          </View>
+          <View style={styles.section}>
+            <View style={styles.sectionHeading}>
+              <Image
+                src={`${iconPath}/circle-briefcase.png`}
+                style={styles.sectionHeadingIcon}
+              />
+              <Text>Project Experience</Text>
+            </View>
+            {projects.map((projectExperience) => (
+              <View key={projectExperience.slug}>
+                <View style={styles.itemHeading}>
+                  <Text style={styles.professionalTitle}>
+                    {projectExperience.attributes.title}
+                  </Text>
+                  <Text>
+                    &nbsp;at {projectExperience.attributes.organization}
+                  </Text>
+                </View>
+                <Html {...htmlProps}>{projectExperience.html}</Html>
               </View>
             ))}
           </View>

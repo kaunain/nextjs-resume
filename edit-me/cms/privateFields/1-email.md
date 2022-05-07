@@ -2,4 +2,4 @@
 label: Email
 ---
 
-kau9.ahmad@gmail.com
+kau9.ahmad\@gmail.com

@@ -23,6 +23,7 @@ export const getServerSideProps: GetServerSideProps = async (ctx) => {
     links,
     personalInformation,
     professional,
+    projects,
     skills,
   } = await getCMSIntegration('markdown');
   const privateInformation = await getPrivateInformation();
@@ -35,6 +36,7 @@ export const getServerSideProps: GetServerSideProps = async (ctx) => {
       personalInformation,
       privateInformation,
       professional,
+      projects,
       secret,
       skills,
     },
