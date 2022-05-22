@@ -2,4 +2,4 @@
 title: Proficient
 ---
 
-Java, SpringBoot, MySql, Linux, JavaScript and Python
+Java, SpringBoot, Interwoven Teamsite, LiveSite, MySql, Linux and JavaScript

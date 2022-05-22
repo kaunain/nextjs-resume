@@ -8,10 +8,10 @@ Working as a Software Developer in MMI Online (A Jagran Prakashan Ltd) , Okhla P
 
 ### JOB PROFILE / RESPONSIBILITIES
 
+- AMP Pages Development
+- Migration Net-magic Data Center to Google Cloud Platform (GCP)
 - Design and Implementation of Result Section on liveresults.jagranjosh.com
-- Requirements Gathering form Product Team
-- Coordination between Server/Support Teams for Hardware/Software requirements
-- Feeds Development for Android Application
+- Microservices Development for Android Application
 - Creating Web based Backend Application using Java Technologies
 - Integration Oxigen wallet, Amazon S3 Buckets, Google custom dimensions and Accuweather
 - Migration Http to Https, Oracle to Mysql, Video Platform JW Player to YouTube

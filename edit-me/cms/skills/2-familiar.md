@@ -2,4 +2,4 @@
 title: Familiar
 ---
 
-Google Cloud Platform, Digitalocean
+Go Lang, C and C++

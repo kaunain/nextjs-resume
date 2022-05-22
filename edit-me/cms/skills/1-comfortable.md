@@ -2,4 +2,4 @@
 title: Comfortable
 ---
 
-Interwoven Teamsite, LiveSite, Django, Nginx, Haproxy, Oracle and TypeScript
+ReactJs, NextJs, Python, Django, Nginx, Haproxy, Cloudflare, Google Cloud Platform, Digitalocean, Oracle and TypeScript
