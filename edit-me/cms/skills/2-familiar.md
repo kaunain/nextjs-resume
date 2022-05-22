@@ -2,4 +2,4 @@
 title: Familiar
 ---
 
-Go Lang, C and C++
+Go Lang, C, C++, Django, Nginx and Haproxy
