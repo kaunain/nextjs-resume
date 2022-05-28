@@ -2,7 +2,7 @@
 location: New Delhi, India
 familyName: Ahmad
 givenName: Kaunain
-title: Senior Full Stack Developer
+title: Senior Software Developer
 twitterUsername: kaunain-ahmad
 ---
 

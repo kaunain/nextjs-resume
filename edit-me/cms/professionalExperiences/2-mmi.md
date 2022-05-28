@@ -1,10 +1,10 @@
 ---
-organization: MMI Online
-startDate: Npv 2012
+organization: MMI Online Pvt Ltd
+startDate: Nov 2012
 title: Senior Software Developer
 ---
 
-Working as a Software Developer in MMI Online (A Jagran Prakashan Ltd) , Okhla Phase-III from 1st Nov 2012 to till date.
+Working as a Senior Software Developer at MMI Online Pvt Ltd (A Jagran Prakashan Ltd), Noida Sector 16 from 1st Nov 2012 to till date.
 
 ### JOB PROFILE / RESPONSIBILITIES
 
