@@ -3,7 +3,13 @@
 # dependencies
 /node_modules
 /.pnp
-.pnp.js
+.pnp.*
+.yarn
+.yarnrc.yml
+.npmrc
+package-lock*
+yarn.lock
+pnpm-lock*
 
 # testing
 /coverage
@@ -39,4 +45,8 @@ yarn-error.log*
 **/public/sw.js
 **/public/worker-*.js
 
+# other
 tsconfig.tsbuildinfo
+
+# Contentlayer
+.contentlayer
