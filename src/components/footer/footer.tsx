@@ -31,7 +31,7 @@ export default function Footer(): ReactNode {
             Copyright © {new Date().getFullYear()} {fullName}
           </div>
           <div className="text-sm">
-            This résumé was generated with{' '}
+            This resume was generated with{' '}
             <a className="text-link" href="https://nextjs.org/">
               Next.js
             </a>

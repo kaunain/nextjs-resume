@@ -26,9 +26,9 @@ export const generateMetadata = async (): Promise<Metadata> => {
   const requestHeaders = await headers();
   const host = requestHeaders.get('host');
   const baseURL = `${protocol}://${host ?? deployURL ?? ''}`;
-  const siteName = `${fullName} Professional Résumé`;
-  const title = `Résumé | ${fullName}`;
-  const description = `Professional résumé for ${fullName}.`;
+  const siteName = `${fullName} | Senior Java Backend Engineer`;
+  const title = `${fullName} — Senior Java Backend Engineer`;
+  const description = `${fullName} is a senior enterprise backend engineer with 15 years of experience delivering Java and Spring Boot solutions for healthcare insurance, claims processing, and production-critical systems.`;
 
   return {
     applicationName: siteName,
@@ -36,7 +36,7 @@ export const generateMetadata = async (): Promise<Metadata> => {
     creator: fullName,
     description,
     generator: 'Next.js',
-    keywords: ['resume', fullName, 'next.js', 'pdf'],
+    keywords: ['Java backend engineer', 'enterprise resume', fullName, 'healthcare insurance', 'claims processing'],
     metadataBase: new URL(baseURL),
     openGraph: {
       type: 'profile',
