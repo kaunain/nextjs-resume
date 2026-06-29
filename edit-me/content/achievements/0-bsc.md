@@ -1,7 +1,7 @@
 ---
 achievement: BSc-IT
+organization: AAI-Deemed University, Allahabad
 completionYear: 2006
-institution: AAI-Deemed University, Allahabad
 ---
 
 Bachelor of Science in IT (BSc IT) from AAI-Deemed University, Allahabad.

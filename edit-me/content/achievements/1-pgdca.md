@@ -1,7 +1,7 @@
 ---
 achievement: PDGCA
+organization: IGNOU
 completionYear: 2008
-institution: IGNOU
 ---
 
 Post Graduate Diploma in Computer Applications (PGDCA) from IGNOU, New Delhi.

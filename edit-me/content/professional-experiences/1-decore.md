@@ -1,15 +1,10 @@
 ---
 organization: DeCore Science and Technology Ltd
-startDate: Feb 2012
-endDate: Oct 2012
-title: Java Developer
+titles:
+  - title: Java Developer
+    startDate: 2012-02-01
+    endDate: 2012-10-01
+    description: Built business logic and database-backed application features, handled deployment and monitoring, and contributed to testing and debugging.
 ---
 
-Worked as a Java Developer in DeCore Science and Technology Ltd, NSEZ Noida Phase-II from Feb 2012 to Oct 2012.
-
-### JOB PROFILE / RESPONSIBILITIES
-
-- Implementation of business logic and database design
-- Deployment and monitoring application on server
-- Configure domain for publicly access of Application
-- Testing and debugging and recommend upgradation
+Worked as a Java Developer in DeCore Science and Technology Ltd, NSEZ Noida Phase-II, implementing application logic and supporting deployments.

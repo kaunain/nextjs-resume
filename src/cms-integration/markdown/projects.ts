@@ -37,7 +37,7 @@ export const getProjectDetails = async (): Promise<CMSProjectDetail[]> => {
       );
       invariant(attributes?.title, `${filename} missing "title" attribute.`);
 
-      const html = marked(body);
+      const html = await marked.parse(body);
 
       return {
         attributes,

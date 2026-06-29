@@ -1,19 +1,10 @@
 ---
 organization: MMI Online Pvt Ltd
-startDate: Nov 2012
-title: Senior Software Developer
+titles:
+  - title: Senior Software Developer
+    startDate: 2012-11-01
+    endDate: null
+    description: Delivered backend development for high-traffic publishing and content platforms, including AMP pages, results modules, cloud migration, and integrations with payment, storage, and analytics services.
 ---
 
-Working as a Senior Software Developer at MMI Online Pvt Ltd (A Jagran Prakashan Ltd), Noida Sector 16 from 1st Nov 2012 to till date.
-
-### JOB PROFILE / RESPONSIBILITIES
-
-- AMP Pages Development
-- Migration Net-magic Data Center to Google Cloud Platform (GCP)
-- Design and Implementation of Result Section on liveresults.jagranjosh.com
-- Microservices Development for Android Application
-- Creating Web based Backend Application using Java Technologies
-- Integration Oxigen wallet, Amazon S3 Buckets, Google custom dimensions and Accuweather
-- Migration Http to Https, Oracle to Mysql, Video Platform JW Player to YouTube
-- Implementation of business logic Using Interwoven LiveSite
-- Deployment and monitoring application on LiveSiteDisplayService
+Worked at MMI Online Pvt Ltd (A Jagran Prakashan Ltd), building backend systems, cloud migration efforts, and integrations for content and product platforms.
