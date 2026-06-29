@@ -1,10 +1,10 @@
 ---
 givenName: Kaunain
 familyName: Ahmad
-title: Senior Java Backend Developer
+title: Senior Java Backend Engineer / Technical Lead
 location: Noida, India
 linkedInUrl: https://www.linkedin.com/in/kaunain-ahmad/
 githubUrl: https://github.com/kaunain
 ---
 
-I am a senior backend engineer with around 14 years of experience building enterprise applications, primarily in Java and Spring technologies. I have strong hands-on experience in healthcare insurance workflows, claims processing, REST APIs, batch processing, production support, and performance tuning.
+Senior backend engineer with 15 years of experience delivering enterprise software solutions for healthcare insurance, publishing, and digital operations. Proven expertise in Java, Spring Boot, microservices architecture, REST API design, claims processing workflows, batch automation, and production support for mission-critical systems.
