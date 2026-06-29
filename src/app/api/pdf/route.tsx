@@ -1,4 +1,4 @@
-import { allPrivateFields } from '@content';
+import { allPrivateFields, personal } from '@content';
 import { renderToBuffer } from '@react-pdf/renderer';
 import { NextResponse } from 'next/server';
 import PDF from 'src/components/pdf/pdf';
@@ -24,6 +24,7 @@ export async function GET(request: Request): Promise<NextResponse> {
   return new NextResponse(pdfStream as BodyInit, {
     headers: {
       'Content-Type': 'application/pdf',
+      'Content-Disposition': `inline; filename="${personal.givenName}_${personal.familyName}_Resume.pdf"`,
     },
   });
 }

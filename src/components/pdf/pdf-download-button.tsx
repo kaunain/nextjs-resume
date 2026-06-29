@@ -10,9 +10,13 @@ export default function PDFDownloadButton(): ReactNode {
 
   return (
     <Button asChild size="lg">
-      <a href={secret ? `/api/pdf?secret=${secret}` : '/api/pdf'}>
+      <a
+        href={secret ? `/api/pdf?secret=${secret}` : '/api/pdf'}
+        target="_blank"
+        rel="noopener noreferrer"
+      >
         <DocumentIcon />
-        View or Download PDF
+        View / Download Resume PDF
       </a>
     </Button>
   );
