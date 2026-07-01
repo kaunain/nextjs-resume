@@ -5,9 +5,9 @@ import ProjectItem from 'src/components/ProjectItem/ProjectItem';
 import Separator from 'src/components/articles/separator';
 import SectionHeading from 'src/components/section-heading/section-heading';
 
-interface ProjectsProperties {
+type ProjectsProperties = {
   projects: CMSProjectDetail[];
-}
+};
 
 export default function Projects({ projects }: ProjectsProperties): ReactNode {
   return (
