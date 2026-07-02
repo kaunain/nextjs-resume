@@ -4,7 +4,7 @@ title: DEMS
 ---
 
 **Technologies implemented :**
-Struts2, Hibernate, Spring, log4j, Jquery, Mysql, eclipse
+Java,Struts2, Hibernate, Spring, log4j, Jquery, Mysql, eclipse
 
 **Project description:**
 
