@@ -35,7 +35,6 @@
   },
   "devDependencies": {
     "@happy-dom/global-registrator": "20.9.0",
-    "@opennextjs/cloudflare": "1.20.1",
     "@tailwindcss/postcss": "4.3.0",
     "@testing-library/react": "16.3.2",
     "@testing-library/user-event": "14.6.1",
@@ -49,18 +48,9 @@
     "prettier-plugin-tailwindcss": "0.8.0",
     "syncpack": "15.1.2",
     "tailwindcss": "4.3.0",
-    "typescript": "6.0.3",
-    "wrangler": "4.106.0"
+    "typescript": "6.0.3"
   },
   "homepage": "https://github.com/colinhemphill/nextjs-resume",
-  "overrides": {
-    "hasown": "2.0.3"
-  },
-  "pnpm": {
-    "overrides": {
-      "hasown": "2.0.3"
-    }
-  },
   "keywords": [
     "generator",
     "nextjs",
@@ -72,17 +62,13 @@
   "name": "nextjs-resume",
   "scripts": {
     "build": "contentlayer2 build && next build",
-    "build:cloudflare": "curl -fsSL https://bun.sh/install | bash && export BUN_INSTALL=\"$HOME/.bun\" && export PATH=\"$BUN_INSTALL/bin:$PATH\" && contentlayer2 build && opennextjs-cloudflare build",
     "build:content": "contentlayer2 build",
-    "cf-typegen": "wrangler types --env-interface CloudflareEnv cloudflare-env.d.ts",
-    "deploy": "curl -fsSL https://bun.sh/install | bash && export BUN_INSTALL=\"$HOME/.bun\" && export PATH=\"$BUN_INSTALL/bin:$PATH\" && opennextjs-cloudflare build && opennextjs-cloudflare deploy",
     "dev": "run-p dev:*",
     "dev:contentlayer": "contentlayer2 dev",
     "dev:next": "next dev --turbopack",
     "format": "prettier --write 'src/**/*.{json,js,ts,tsx}' && syncpack format",
     "knip": "knip-bun --fix --allow-remove-files",
     "lint": "eslint --fix . && syncpack format && syncpack lint",
-    "preview": "curl -fsSL https://bun.sh/install | bash && export BUN_INSTALL=\"$HOME/.bun\" && export PATH=\"$BUN_INSTALL/bin:$PATH\" && opennextjs-cloudflare build && opennextjs-cloudflare preview",
     "start": "next start",
     "sync": "syncpack fix-mismatches",
     "test": "bun test",
