@@ -31,18 +31,18 @@ export default function Footer(): ReactNode {
             Copyright © {new Date().getFullYear()} {fullName}
           </div>
           <div className="text-sm">
-            This resume was generated with{' '}
+            Built with{' '}
             <a className="text-link" href="https://nextjs.org/">
               Next.js
             </a>
-            . Learn how to deploy your own résumé with the{' '}
+            {' '}and{' '}
             <a
               className="text-link"
               href="https://github.com/colinhemphill/nextjs-resume"
             >
               nextjs-resume
             </a>
-            !
+            . All rights reserved.
           </div>
         </div>
       </div>
