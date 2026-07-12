@@ -1,5 +1,5 @@
 ---
-organization: MMI Online Ltd
+organization: Jagran New Media
 title: colleges.jagranjosh.com
 ---
 
