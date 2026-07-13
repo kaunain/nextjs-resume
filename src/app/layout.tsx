@@ -5,6 +5,8 @@ import { Albert_Sans, JetBrains_Mono } from 'next/font/google';
 import { headers } from 'next/headers';
 import { PropsWithChildren, ReactNode } from 'react';
 import Footer from 'src/components/footer/footer';
+import { GTM_ID } from 'edit-me/config/analytics';
+import GoogleAnalytics from 'src/app/google-analytics';
 import Header from 'src/components/header/header';
 import { deployURL, protocol } from 'src/helpers/environment';
 import { cn, fullName } from 'src/helpers/utilities';
@@ -69,6 +71,7 @@ export default function RootLayout({ children }: PropsWithChildren): ReactNode {
       className={cn(albert.variable, jetBrainsMono.variable)}
       suppressHydrationWarning
     >
+      {GTM_ID && <GoogleAnalytics measurementId={GTM_ID} />}
       <body className="bg-neutral-1 text-neutral-12 selection:bg-accent-11 selection:text-neutral-1">
         <ThemeProvider attribute="class" defaultTheme="system" enableSystem>
           <div className="space-y-12">
